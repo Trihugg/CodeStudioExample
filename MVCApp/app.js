@@ -23,5 +23,6 @@ var customerController = require('./customer.js');
 app.use('/customer', customerController);
 
 var server = app.listen(3000,function() {
-    console.log("server is running .... ");
+    //console.log("server is running ... ");
+    console.log("...");
 });
